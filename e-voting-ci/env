@@ -1,0 +1,12 @@
+# file .env
+CI_ENVIRONMENT = development
+
+app.baseURL    = 'http://localhost:8080'
+
+app.indexPage  = ''
+
+database.default.hostname = localhost
+database.default.database = e-voting
+database.default.username = root
+database.default.password = 
+database.default.DBDriver = MySQLi
